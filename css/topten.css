@@ -1,6 +1,6 @@
-/*span{
-    text-align: center;
-}*/
+html{
+    color-scheme: light dark;
+}
 tr{
     width:100%;
     display: flex;
