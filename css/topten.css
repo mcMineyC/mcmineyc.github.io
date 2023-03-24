@@ -43,7 +43,7 @@ a.mdc-list-item{
 }
 @media (prefers-color-scheme: light){
     body{
-        --mdc-theme-text-primary-on-dark: #141414;
+        --mdc-theme-text-primary-on-light: #141414;
         --mdc-theme-surface: #ffffff;
         --mdc-theme-on-primary: var(--mdc-theme-text-primary-on-dark);
         --mdc-theme-on-secondary: var(--mdc-theme-text-primary-on-dark);
