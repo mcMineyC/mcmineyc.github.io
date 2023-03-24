@@ -6,3 +6,10 @@ tr{
     display: flex;
     justify-content: center;
 }
+table{
+    background-color: rgba(44, 44, 44, 0.5);
+    border-radius: 15px;
+    padding: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
