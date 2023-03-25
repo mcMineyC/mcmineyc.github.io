@@ -24,10 +24,22 @@ body{
 }
 
 a.mdc-list-item{
-    padding: 20px;
+    padding: 18px;
 }
 i.material-icons{
-    margin-right:5px;
+    margin-right:8px;
+}
+div.mdc-top-app-bar--fixed-adjust{
+    padding: 20px;
+    padding-top: 84px;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
 }
 @media (prefers-color-scheme: light){
     body{

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="/css/ui.css">
     <link rel="stylesheet" href="/css/topten.css">
-    <title>Top Ten</title>
+    <title>Jedidiah McClimans' Portfolio</title>
 </head>
 <body>
 
@@ -21,12 +21,17 @@
     <aside class="mdc-drawer mdc-drawer--modal">
         <div class="mdc-drawer__content">
             <nav class="mdc-list">
+            <a class="mdc-list-item mdc-list-item--activated" href="/" aria-current="page">
+              <span class="mdc-list-item__ripple"></span>
+              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">home</i>
+              <span class="mdc-list-item__text">Home</span>
+            </a>
             <a class="mdc-list-item mdc-list-item--activated" href="#" aria-current="page">
               <span class="mdc-list-item__ripple"></span>
               <i class="material-icons mdc-list-item__graphic" aria-hidden="true">description</i>
               <span class="mdc-list-item__text">My Story</span>
             </a>
-            <a class="mdc-list-item" href="#">
+            <a class="mdc-list-item" href="/essays/topten/">
               <span class="mdc-list-item__ripple"></span>
               <i class="material-icons mdc-list-item__graphic" aria-hidden="true">description</i>
               <span class="mdc-list-item__text">Top Ten List of My Interests/Passions</span>
@@ -35,6 +40,16 @@
               <span class="mdc-list-item__ripple"></span>
               <i class="material-icons mdc-list-item__graphic" aria-hidden="true">description</i>
               <span class="mdc-list-item__text">How My Life Would Change If The Internet Ceased To Exist</span>
+            </a>
+            <a class="mdc-list-item" href="/essays/nointernet/">
+              <span class="mdc-list-item__ripple"></span>
+              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">category</i>
+              <span class="mdc-list-item__text">Projects I've Done</span>
+            </a>
+            <a class="mdc-list-item" href="/essays/nointernet/">
+              <span class="mdc-list-item__ripple"></span>
+              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">web</i>
+              <span class="mdc-list-item__text">Projects I've Done</span>
             </a>
           </nav>
         </div>
@@ -45,11 +60,16 @@
           <div class="mdc-top-app-bar__row">
             <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
               <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button">menu</button>
-              <span class="mdc-top-app-bar__title">Jedidiah McClimans's Portfolio</span>
+              <span class="mdc-top-app-bar__title">Jedidiah McClimans' Portfolio</span>
             </section>
           </div>
         </header> 
-        <main class="mdc-top-app-bar--fixed-adjust">Content</main>
+
+        <!--Main body-->
+
+        <div class="mdc-top-app-bar--fixed-adjust">
+          <h1 class="header">The Top 10 List of My Interests and Passions</h1>
+        </div>
       </div>
       <script>
         var r = document.querySelector(':root');
@@ -62,47 +82,5 @@
         });
     </script>
 
-
-
-
-
-    <h1>Top Ten Interests/Passions</h1>
-    <div id="table">
-        <table>
-            <tr>
-                <th>Interest/Passion</th>
-            </tr>
-            <tr>
-                <td>Data</td>
-            </tr>
-            <tr>
-                <td>Data</td>
-            </tr>
-            <tr>
-                <td>Data</td>
-            </tr>
-            <tr>
-                <td>Data</td>
-            </tr>
-            <tr>
-                <td>Data</td>
-            </tr>
-            <tr>
-                <td>Data</td>
-            </tr>
-            <tr>
-                <td>Data</td>
-            </tr>
-            <tr>
-                <td>Data</td>
-            </tr>
-            <tr>
-                <td>Data</td>
-            </tr>
-            <tr>
-                <td>Data</td>
-            </tr>
-            </table>
-        </div>
 </body>
 </html>
