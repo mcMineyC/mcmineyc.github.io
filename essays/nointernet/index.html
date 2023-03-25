@@ -88,7 +88,6 @@
         var r = document.querySelector(':root');
         var c = window.getComputedStyle( document.body ,null).getPropertyValue('background-color');
         r.style.setProperty('--mdc-theme-surface', c);
-        const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
         const drawer = mdc.drawer.MDCDrawer.attachTo(document.querySelector('.mdc-drawer'));
         const topAppBar = mdc.topAppBar.MDCTopAppBar.attachTo(document.querySelector('.mdc-top-app-bar'));
         topAppBar.listen('MDCTopAppBar:nav', () => {

@@ -17,17 +17,15 @@ i.material-icons{
     margin-right:8px;
 }
 div.mdc-top-app-bar--fixed-adjust{
-    margin:-40px;
-    margin-top:0px;
-    padding: 20px;
-    padding-top: 84px;
+    margin:0px;
+    padding-left:0px;
+    padding-right:0px;
     width: 100%;
     height: 100%;
+    margin-top:0px;
 }
 .header{
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    width: calc(100% - ( var(--header-padding) * 2 ));
     text-align: center;
 }
 .center{
@@ -38,6 +36,28 @@ div.mdc-top-app-bar--fixed-adjust{
 th{
     font-family: "PoppinsL";
     font-size: 22px;
+}
+
+@media (max-width: 750px){
+    .content{
+        width: 84%;
+        padding-left:8%;
+        padding-right:8%;
+    }
+    div.mdc-top-app-bar--fixed-adjust{
+        margin:0px;
+        padding-left:0px;
+        padding-right:0px;
+        padding-top: calc(56px + 25px);
+        width: 100%;
+        height: calc(100% + -40px);
+    }
+    .header{
+        margin-top:-10px;
+        --header-padding: 1%;
+        padding-left: var(--header-padding);
+        padding-right: var(--header-padding);
+    }
 }
 @media (prefers-color-scheme: light){
     body{
@@ -65,6 +85,7 @@ th{
         --table-secondary-bg: #333333;
         --mdc-theme-text-primary-on-dark: #dfdfdf;
         --mdc-theme-surface: #2a2a2a;
+        /*--mdc-theme-surface: #00ff00;*/
         --mdc-theme-on-primary: var(--mdc-theme-text-primary-on-dark);
         --mdc-theme-on-secondary: var(--mdc-theme-text-primary-on-dark);
         --mdc-theme-on-surface: var(--mdc-theme-text-primary-on-dark);
