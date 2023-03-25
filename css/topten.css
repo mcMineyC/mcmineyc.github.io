@@ -25,12 +25,12 @@ div#content{
     padding-bottom: 15px;
     padding-right: 0px;
 }
-div#list::first-line{
+div#list{
     border-radius: 15px;
     background-color: var(--table-bg);
     padding-right:30px;
 }
-div#text::first-line{
+div#text{
     border-radius: 15px;
     background-color: var(--table-secondary-bg);
     margin-left:-30px;
