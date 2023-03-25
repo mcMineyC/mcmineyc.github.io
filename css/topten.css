@@ -2,44 +2,38 @@ li{
     width:100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 5px;
 }
 .nopadding{
     padding:0px;
 }
-li.nopadding{
-    margin-bottom: -6px;
-}
-div#content{
-    display: inline;
-    padding-bottom: -3px;
-}
-div#table li{
+div#list li{
     font-family: "PoppinsL";
     font-size: 14pt;
-}
-li{
-    margin-bottom: 5px;
 }
 .head{
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-table#content{
-    background-color: var(--table-bg);
+div#content{
+    display:flex;
+    flex-wrap: wrap;
     border-radius: 15px;
     padding: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 0px;
 }
-div#text{
-    background-color: var(--table-secondary-bg);
+div#list::first-line{
     border-radius: 15px;
-    margin-bottom: -20px;
-    margin-left: 25px;
-    margin-top: -18px;
-    margin-right: -3px;
+    background-color: var(--table-bg);
+    padding-right:30px;
+}
+div#text::first-line{
+    border-radius: 15px;
+    background-color: var(--table-secondary-bg);
+    margin-left:-30px;
     padding: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -47,4 +41,17 @@ div#text{
 }
 div#text > h1{
     margin-top: -5px;
+}
+div.flex{
+    display: flex;
+}
+@media (max-width: 410px){
+    div#list{
+        border-radius: 15px;
+        padding-bottom: 30px;
+    }
+    div#text{
+        border-radius: 15px;
+        margin-top:-30px;
+    }
 }

@@ -64,10 +64,9 @@
 
         <div class="mdc-top-app-bar--fixed-adjust">
           <h1 class="header">The Top 10 List of My Interests and Passions</h1>
-          <table id="content" class="center">
-            <tr class="nopadding">
-              <td class="mdc-list-item__text">
-                <div id="table">
+          <div class="flex">
+            <div id="content" class="center">
+              <div id="list" class="mdc-list-item__text">
                   <ul class="mdc-list">
                       <li>
                         <span class="mdc-list-item__text head">Interest/Passion</span>
@@ -113,15 +112,11 @@
                         <span class="mdc-list-item__text"></span>
                       </li>
                     </ul>
-                </div>
-              </td>
-              <td>
-                <div id="text">
+              </div>
+              <div id="text">
                   <h1>bob</h1>
-                </div>
-              </td>
-            </tr>
-          </table>
+              </div>
+          </div>
       </div>
       <script>
         var r = document.querySelector(':root');

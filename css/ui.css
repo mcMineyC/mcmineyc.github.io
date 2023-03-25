@@ -25,6 +25,7 @@ div.mdc-top-app-bar--fixed-adjust{
     margin-top:0px;
 }
 .header{
+    justify-content: center;
     width: calc(100% - ( var(--header-padding) * 2 ));
     text-align: center;
 }
@@ -33,7 +34,7 @@ div.mdc-top-app-bar--fixed-adjust{
     margin-right: auto;
     text-align: center;
 }
-th{
+.head{
     font-family: "PoppinsL";
     font-size: 22px;
 }
