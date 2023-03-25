@@ -41,6 +41,9 @@ table{
 a.mdc-list-item{
     padding: 20px;
 }
+i.material-icons{
+    margin-right:5px;
+}
 @media (prefers-color-scheme: light){
     body{
         --mdc-theme-text-primary-on-light: #141414;

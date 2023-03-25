@@ -1,12 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <style>
+        html { color-scheme: light dark;  font-family: "PoppinsL";}
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jedidiah McClimans's Personal Portfolio</title>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/css/topten.css">
+    <title>Top Ten</title>
 </head>
 <body>
-    <a href="essays/index.html">Essays</a>
+
+
+
+    
+    <aside class="mdc-drawer mdc-drawer--modal">
+        <div class="mdc-drawer__content">
+            <nav class="mdc-list">
+            <a class="mdc-list-item mdc-list-item--activated" href="#" aria-current="page">
+              <span class="mdc-list-item__ripple"></span>
+              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">description</i>
+              <span class="mdc-list-item__text">My Story</span>
+            </a>
+            <a class="mdc-list-item" href="#">
+              <span class="mdc-list-item__ripple"></span>
+              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">description</i>
+              <span class="mdc-list-item__text">Top Ten List of My Interests/Passions</span>
+            </a>
+            <a class="mdc-list-item" href="#">
+              <span class="mdc-list-item__ripple"></span>
+              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">description</i>
+              <span class="mdc-list-item__text">How My Life Would Change If The Internet Ceased To Exist</span>
+            </a>
+          </nav>
+        </div>
+      </aside>
+      <div class="mdc-drawer-scrim"></div>
+      <div class="mdc-drawer-app-content">  
+        <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
+          <div class="mdc-top-app-bar__row">
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+              <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button">menu</button>
+              <span class="mdc-top-app-bar__title">Jedidiah McClimans's Portfolio</span>
+            </section>
+          </div>
+        </header> 
+        <main class="mdc-top-app-bar--fixed-adjust">Content</main>
+      </div>
+      <script>
+        var r = document.querySelector(':root');
+        var c = window.getComputedStyle( document.body ,null).getPropertyValue('background-color');
+        r.style.setProperty('--mdc-theme-surface', c);
+        const drawer = mdc.drawer.MDCDrawer.attachTo(document.querySelector('.mdc-drawer'));
+        const topAppBar = mdc.topAppBar.MDCTopAppBar.attachTo(document.querySelector('.mdc-top-app-bar'));
+        topAppBar.listen('MDCTopAppBar:nav', () => {
+          drawer.open = !drawer.open;
+        });
+    </script>
+
+
+
+
+
+    <h1>Top Ten Interests/Passions</h1>
+    <div id="table">
+        <table>
+            <tr>
+                <th>Interest/Passion</th>
+            </tr>
+            <tr>
+                <td>Data</td>
+            </tr>
+            <tr>
+                <td>Data</td>
+            </tr>
+            <tr>
+                <td>Data</td>
+            </tr>
+            <tr>
+                <td>Data</td>
+            </tr>
+            <tr>
+                <td>Data</td>
+            </tr>
+            <tr>
+                <td>Data</td>
+            </tr>
+            <tr>
+                <td>Data</td>
+            </tr>
+            <tr>
+                <td>Data</td>
+            </tr>
+            <tr>
+                <td>Data</td>
+            </tr>
+            <tr>
+                <td>Data</td>
+            </tr>
+            </table>
+        </div>
 </body>
 </html>
