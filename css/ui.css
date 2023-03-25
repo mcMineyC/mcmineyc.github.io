@@ -41,6 +41,15 @@ div.mdc-top-app-bar--fixed-adjust{
     width: 100%;
     text-align: center;
 }
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+th{
+    font-family: "PoppinsL";
+    font-size: 22px;
+}
 @media (prefers-color-scheme: light){
     body{
         --table-bg: #d4d4d4;
@@ -63,7 +72,8 @@ div.mdc-top-app-bar--fixed-adjust{
 }
 @media (prefers-color-scheme: dark){
     body{
-        --table-bg: #3a3a3a;
+        --table-bg: #202020;
+        --table-secondary-bg: #333333;
         --mdc-theme-text-primary-on-dark: #dfdfdf;
         --mdc-theme-surface: #2a2a2a;
         --mdc-theme-on-primary: var(--mdc-theme-text-primary-on-dark);

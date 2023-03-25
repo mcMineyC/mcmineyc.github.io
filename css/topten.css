@@ -3,13 +3,40 @@ tr{
     display: flex;
     justify-content: center;
 }
+.nopadding{
+    padding:0px;
+}
+tr.nopadding{
+    margin-bottom: -6px;
+}
 div#content{
     display: inline;
+    padding-bottom: -3px;
 }
-table{
+div#table td{
+    font-family: "PoppinsL";
+    font-size: 14pt;
+}
+table#content{
     background-color: var(--table-bg);
     border-radius: 15px;
     padding: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
+    padding-right: 0px;
+}
+div#text{
+    background-color: var(--table-secondary-bg);
+    border-radius: 15px;
+    margin-bottom: -20px;
+    margin-left: 25px;
+    margin-top: -18px;
+    margin-right: -3px;
+    padding: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 100%;
+}
+div#text > h1{
+    margin-top: -5px;
 }
