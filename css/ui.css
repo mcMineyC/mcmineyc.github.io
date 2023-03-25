@@ -43,6 +43,7 @@ div.mdc-top-app-bar--fixed-adjust{
 }
 @media (prefers-color-scheme: light){
     body{
+        --table-bg: #d4d4d4;
         --mdc-theme-text-primary-on-light: #141414;
         --mdc-theme-surface: #ffffff;
         --mdc-theme-on-primary: var(--mdc-theme-text-primary-on-dark);
@@ -62,6 +63,7 @@ div.mdc-top-app-bar--fixed-adjust{
 }
 @media (prefers-color-scheme: dark){
     body{
+        --table-bg: #3a3a3a;
         --mdc-theme-text-primary-on-dark: #dfdfdf;
         --mdc-theme-surface: #2a2a2a;
         --mdc-theme-on-primary: var(--mdc-theme-text-primary-on-dark);
