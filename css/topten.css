@@ -1,4 +1,4 @@
-tr{
+li{
     width:100%;
     display: flex;
     justify-content: center;
@@ -6,7 +6,7 @@ tr{
 .nopadding{
     padding:0px;
 }
-tr.nopadding{
+li.nopadding{
     margin-bottom: -6px;
 }
 div#content{
