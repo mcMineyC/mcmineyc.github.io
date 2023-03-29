@@ -63,6 +63,7 @@ div.mdc-top-app-bar--fixed-adjust{
 @media (prefers-color-scheme: light){
     body{
         --table-bg: #d4d4d4;
+        --table-secondary-bg: #c0c0c0;
         --mdc-theme-text-primary-on-light: #141414;
         --mdc-theme-surface: #ffffff;
         --mdc-theme-on-primary: var(--mdc-theme-text-primary-on-dark);
