@@ -86,7 +86,6 @@ div.mdc-top-app-bar--fixed-adjust{
         --table-secondary-bg: #333333;
         --mdc-theme-text-primary-on-dark: #dfdfdf;
         --mdc-theme-surface: #2a2a2a;
-        /*--mdc-theme-surface: #00ff00;*/
         --mdc-theme-on-primary: var(--mdc-theme-text-primary-on-dark);
         --mdc-theme-on-secondary: var(--mdc-theme-text-primary-on-dark);
         --mdc-theme-on-surface: var(--mdc-theme-text-primary-on-dark);

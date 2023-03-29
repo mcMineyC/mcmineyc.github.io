@@ -1,2 +1,3 @@
 # mcmineyc.github.io
-My Personal Portfolio
+My Personal Portfolio.
+https://mcmineyc.github.io
