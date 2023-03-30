@@ -66,7 +66,7 @@ div.mdc-top-app-bar--fixed-adjust{
 }
 @media (max-width:1010px){
     a.figure{
-        margin-bottom: 10px !important;
+        margin-bottom: 5% !important;
     }
 }
 @media (prefers-color-scheme: light){
