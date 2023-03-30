@@ -64,6 +64,11 @@ div.mdc-top-app-bar--fixed-adjust{
         padding-right: var(--header-padding);
     }
 }
+@media (max-width:1010px){
+    a.figure{
+        margin-bottom: 10px !important;
+    }
+}
 @media (prefers-color-scheme: light){
     body{
         --table-bg: #d4d4d4;

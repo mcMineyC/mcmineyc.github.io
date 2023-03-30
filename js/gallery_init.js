@@ -23,7 +23,7 @@ window.addEventListener('load', function() {
         count = parseInt(response.data)
         console.log("Got count: "+count)
         if(count == 0){
-            document.getElementById("errorcont").innerHTML = "<h2>No art here!<br><a href=\"/submit\">Submit some?</a></h2>"
+            document.getElementById("errorcont").innerHTML = "<h2>Nothing here!</h2>"
         }
         axios.get('/getstuff')
         .then(async response => {
