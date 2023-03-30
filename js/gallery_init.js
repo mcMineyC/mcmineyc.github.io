@@ -29,7 +29,6 @@ window.addEventListener('load', function() {
         .then(async response => {
             const data = response.data;
             var datii = JSON.parse(JSON.stringify(data))
-            console.log(`GOT data`, data);
             console.log(count)
             for(i=1;i<count+1;i++){
                 console.log("data "+i+": "+JSON.stringify(datii[i]))
@@ -39,7 +38,7 @@ window.addEventListener('load', function() {
             gallery.setItems(items)
             gallery.init();
             console.log("done?")
-            const startObservable = (domNode) => {
+            const observe = (domNode) => {
                 var targetNode = domNode;
               
                 var observerConfig = {
@@ -50,18 +49,23 @@ window.addEventListener('load', function() {
               
                 return new Promise((resolve) => {
                     var observer = new MutationObserver(function (mutations) {
-                       // For the sake of...observation...let's output the mutation to console to see how this all works
-                       mutations.forEach(function (mutation) {
-                           console.log(mutation.type);
-                       });
                        resolve(mutations)
                    });
                    observer.observe(targetNode, observerConfig);
                  })
             }
-            console.log(await startObservable(document.querySelector(".natural-gallery-body")));
-            document.querySelectorAll("div.natural-gallery-body > a").forEach(l => {
-                l.setAttribute("href","https://google.com")
+            console.log(await observe(document.querySelector(".natural-gallery-body")));
+            var cnt = 0;
+            console.log(`GOT data`, datii);
+            const elems = document.querySelectorAll("div.natural-gallery-body > a");
+            console.log("Elems",elems)
+            for(i=1;i<count+1;i++){
+                console.log("link"+i+": "+datii[i].link)
+                console.log("elem"+(i-1)+": ",elems[i-1])
+                elems[i-1].setAttribute("href",datii[i].link)
+            }
+            elems.forEach((l,z) => {
+                cnt++;
             })
         }).catch(error => console.error(error));
     }).catch(error => console.error(error));
