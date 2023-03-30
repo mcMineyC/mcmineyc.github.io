@@ -38,6 +38,10 @@ div.mdc-top-app-bar--fixed-adjust{
     font-family: "PoppinsL";
     font-size: 22px;
 }
+.head1{
+    font-family: "PoppinsL";
+    font-size: 48px;
+}
 
 @media (max-width: 750px){
     .content{
