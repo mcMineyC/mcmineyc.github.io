@@ -1,1 +1,26 @@
-{"1":{"thumbnailSrc":"https://forkleserver.mooo.com/data/thumbs-300x300/001.jpg","enlargedSrc":"https://forkleserver.mooo.com/data/full-size/001.jpg","enlargedWidth":4160,"enlargedHeight":3120,"title":"Goggle by Google","link":"https://google.com"},"2":{"thumbnailSrc":"https://forkleserver.mooo.com/data/thumbs-300x300/001.jpg","enlargedSrc":"https://forkleserver.mooo.com/data/full-size/001.jpg","enlargedWidth":4160,"enlargedHeight":3120,"title":"murp","link":"https://murp.com"}}
+{
+    "1": {
+        "thumbnailSrc": "/data/thumbs-300x300/003.png",
+        "enlargedSrc": "/data/thumbs-300x300/003.png",
+        "enlargedWidth": 4160,
+        "enlargedHeight": 3120,
+        "title": "Art Masters Online Gallery",
+        "link": "https://google.com"
+    },
+    "2": {
+        "thumbnailSrc": "/data/thumbs-300x300/003.png",
+        "enlargedSrc": "/data/thumbs-300x300/003.png",
+        "enlargedWidth": 144,
+        "enlargedHeight": 144,
+        "title": "This Website",
+        "link": "/"
+    },
+    "3": {
+        "thumbnailSrc": "/data/thumbs-300x300/003.png",
+        "enlargedSrc": "/data/thumbs-300x300/003.png",
+        "enlargedWidth": 144,
+        "enlargedHeight": 144,
+        "title": "Jedi Does Stuff",
+        "link": "https://youtube.com/@jedidoesstuff"
+    }
+}
