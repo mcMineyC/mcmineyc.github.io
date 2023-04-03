@@ -38,12 +38,16 @@ div#text{
     padding-top: 15px;
     padding-bottom: 15px;
     height: 300px;
+    width: 275px !important;
 }
 div#text > h1{
     margin-top: -5px;
 }
 div.flex{
     display: flex;
+}
+p#textarea{
+    text-align: justify;
 }
 @media (max-width: 410px){
     div#list{
