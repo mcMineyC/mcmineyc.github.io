@@ -5,6 +5,7 @@ var texts = [
 "Reading transports me into another world and helps me relax.  That's really all there is to say.",
 "Art is yet another way I harness my creativity.  I really enjoy painting with acrylic.  Other ways I like to make art is through Minecraft, where I can easily make beautiful (albeit slightly blocky) dwellings.",
 "Of course, since I'm very tech-minded and have a lot of tech, I need a place to put it all.  That's where my building skills come in.  I've built myself three separate shelves (which were later repurposed into a big shelf) and a bed.  The neat thing about building something yourself is that you can customize it however you want. ",
+"",
 "I'm interested in science because it basically explains how the world works.  As someone who wants to know how things work and why they work that way, science helps me in my pursuit of knowledge.",
 "Math.  Some kids hate it, some don't mind it.  Personally, I think it's been extremely helpful in science, as you can calculate the mass of an object, determine the half-life of a radioactive substance, and ",
 ]
