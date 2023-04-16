@@ -11,7 +11,7 @@ var texts = [
 ]
 var pintrests = ["Coding","Making 3D Animations",
 "Playing video games","Reading","Art","Building",
-"Science","Math"]
+"","Science","Math"]
 function a(){
     document.getElementById("headertext").innerHTML = pintrests[0]
     document.getElementById("textarea").innerHTML = texts[0]
