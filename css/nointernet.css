@@ -2,11 +2,10 @@
     width:750px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    tab-size: 8;
+    tab-size: 16;
 }
 .paragraph{
-    text-align: justify;
+    text-align: justify !important;
     font-size: 17px;
 }
 html{

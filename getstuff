@@ -1,26 +1,34 @@
 {
     "1": {
-        "thumbnailSrc": "/data/thumbs-300x300/003.png",
-        "enlargedSrc": "/data/thumbs-300x300/003.png",
-        "enlargedWidth": 4160,
-        "enlargedHeight": 3120,
+        "thumbnailSrc": "/data/thumbs-300x300/amog.png",
+        "enlargedSrc": "/data/thumbs-300x300/amog.png",
+        "enlargedWidth": 1300,
+        "enlargedHeight": 965,
         "title": "Art Masters Online Gallery",
         "link": "https://google.com"
     },
     "2": {
-        "thumbnailSrc": "/data/thumbs-300x300/003.png",
-        "enlargedSrc": "/data/thumbs-300x300/003.png",
-        "enlargedWidth": 144,
-        "enlargedHeight": 144,
+        "thumbnailSrc": "/data/thumbs-300x300/code.png",
+        "enlargedSrc": "/data/thumbs-300x300/code.png",
+        "enlargedWidth": 751,
+        "enlargedHeight": 667,
         "title": "This Website",
         "link": "/"
     },
     "3": {
-        "thumbnailSrc": "/data/thumbs-300x300/003.png",
-        "enlargedSrc": "/data/thumbs-300x300/003.png",
-        "enlargedWidth": 144,
-        "enlargedHeight": 144,
+        "thumbnailSrc": "/data/thumbs-300x300/yt.png",
+        "enlargedSrc": "/data/thumbs-300x300/yt.png",
+        "enlargedWidth": 1148,
+        "enlargedHeight": 742,
         "title": "Jedi Does Stuff",
         "link": "https://youtube.com/@jedidoesstuff"
+    },
+    "4": {
+        "thumbnailSrc": "/data/thumbs-300x300/room.png",
+        "enlargedSrc": "/data/thumbs-300x300/room.png",
+        "enlargedWidth": 1000,
+        "enlargedHeight": 962,
+        "title": "My Smart Room",
+        "link": "https://youtu.be/pThW0YtlQkc"
     }
 }

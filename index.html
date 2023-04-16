@@ -39,12 +39,12 @@
               <span class="mdc-list-item__ripple"></span>
               <i class="material-icons mdc-list-item__graphic" aria-hidden="true">description</i>
               <span class="mdc-list-item__text">How My Life Would Change If The Internet Ceased To Exist</span>
-            </a>
+            </a><!--
             <a class="mdc-list-item" href="/projects">
               <span class="mdc-list-item__ripple"></span>
               <i class="material-icons mdc-list-item__graphic" aria-hidden="true">web</i>
               <span class="mdc-list-item__text">Projects I've Done</span>
-            </a>
+            </a>-->
           </nav>
         </div>
       </aside>
@@ -72,6 +72,7 @@
         r.style.setProperty('--mdc-theme-surface', c);
         const drawer = mdc.drawer.MDCDrawer.attachTo(document.querySelector('.mdc-drawer'));
         const topAppBar = mdc.topAppBar.MDCTopAppBar.attachTo(document.querySelector('.mdc-top-app-bar'));
+        drawer.open = true;
         topAppBar.listen('MDCTopAppBar:nav', () => {
           drawer.open = !drawer.open;
         });
