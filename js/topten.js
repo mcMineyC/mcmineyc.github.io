@@ -8,11 +8,11 @@ var texts = [
 "I'm interested in science because it basically explains how the world works.  As someone who wants to know how things work and why they work that way, science helps me in my pursuit of knowledge.",
 "Math.  Some kids hate it, some don't mind it.  Personally, I think it's been extremely helpful in science, as you can calculate the mass of an object, determine the half-life of a radioactive substance, and estimate the trajectory of an object through the air.",
 "I like to go camping and hiking with my Boy Scout troop.  This is because I love to see all the beautiful nature.  I don't like camping as much, but I do like sitting around the campfire.",
-"Parkour is fun for me because it gives me somewhere to use all my raw energy.  I go to Firestorm Galaxy to learn and practice skills on bars and wood structures.",
+"Parkour is fun for me because it gives me somewhere to use all my raw energy.  I go to Firestorm Galaxy Gym to learn and practice skills on bars and wood structures.",
 ]
 var pintrests = ["Coding","Making 3D Animations",
 "Playing video games","Reading","Art","Building",
-"Science","Math","Hiking & Camping","Parkour/Freerunning"]
+"Science","Math","Hiking & Camping","Parkour"]
 var imgs = [
 "<img src=\"/data/topten/coding.jpg\" height=\"500px\"></img>",
 "<img src=\"/data/topten/renders.png\" height=\"500px\"></img>",
@@ -22,8 +22,8 @@ var imgs = [
 "<img src=\"/data/topten/building.jpg\" height=\"500px\"></img>",
 "<img src=\"/data/topten/science.jpg\" height=\"500px\"></img>",
 "<img src=\"/data/topten/math.jpg\" height=\"500px\"></img>",
-"<img src=\"/data/topten/null.jpg\" height=\"500px\"></img>",
-"<img src=\"/data/topten/null.jpg\" height=\"500px\"></img>"
+"<img src=\"/data/topten/camping.jpg\" height=\"500px\"></img>",
+"<img src=\"/data/topten/parkour.jpg\" height=\"500px\"></img>"
 ]
 for(i=0; i<10; i++){
     console.log(i)
