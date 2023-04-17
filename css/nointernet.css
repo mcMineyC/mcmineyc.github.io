@@ -3,11 +3,11 @@
     margin-left: auto;
     margin-right: auto;
     tab-size: 16;
+    padding-bottom: 100px;
 }
 .paragraph{
     text-align: justify !important;
     font-size: 17px;
-    padding-bottom: 100px;
 }
 html{
     overflow-wrap: break-word;

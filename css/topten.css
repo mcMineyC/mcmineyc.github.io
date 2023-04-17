@@ -4,6 +4,12 @@ li{
     justify-content: center;
     margin-bottom: 5px;
 }
+.img {
+    border-radius: 25px;
+    padding-left:40px;
+    padding-right:40px;
+    height: 25% !important;
+}
 .nopadding{
     padding:0px;
 }
