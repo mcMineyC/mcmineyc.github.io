@@ -49,15 +49,6 @@ div.mdc-top-app-bar--fixed-adjust{/*
         padding-left:8%;
         padding-right:8%;
     }
-    div.mdc-top-app-bar--fixed-adjust{/*
-        margin:0px;
-        padding-left:0px;
-        padding-right:0px;
-        padding-top: calc(56px + 25px);
-        /*width: 100%;
-        height: calc(100% + -40px);
-        */
-    }
     .header{
         margin-top:-10px;
         --header-padding: 1%;
