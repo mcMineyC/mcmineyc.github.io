@@ -2,7 +2,7 @@ var texts = [
 "Coding is unquestionably one of my passions.  My YouTube channel showcases the entire process of making this website.  I also wrote an online gallery website for my art class, so that people who couldn't make it to an in-person exhibit could still show off their art.",
 "Making 3D animations allows me to do things I wouldn't normally be able to do, such as making a computer explode, or literally knocking down half a million dominoes.",
 "I do like playing video games. I don't, however, like playing mind-numbing first-person shooters.  Instead, I like games that have a puzzle in them such as Portal 2 and Superliminal.  I also like creating modern houses and cities in Minecraft.",
-"Reading transports me into another world and helps me relax.  That's really all there is to say.",
+"Reading transports me into another world and helps me relax.  My favorite genre of books is fantasy, such as Keeper of the Lost Cities and Alcatraz vs. the Evil Librarians.  My favorite classic piece of literature is Lord Of The Rings.",
 "Art is yet another way I harness my creativity.  I really enjoy painting with acrylic.  Other ways I like to make art is through Minecraft, where I can easily make beautiful (albeit slightly blocky) dwellings.",
 "Of course, since I'm very tech-minded and have a lot of tech, I need a place to put it all.  That's where my building skills come in.  This year, I built my own shelf using wood repurposed from other project.  The neat thing about building something yourself is that you can customize it however you want. ",
 "I'm interested in science because it basically explains how the world works.  As someone who wants to know how things work and why they work that way, science helps me in my pursuit of knowledge.",

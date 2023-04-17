@@ -56,6 +56,9 @@ p#textarea{
     text-align: justify;
 }
 @media (max-width: 410px){
+    .header {
+        padding-top: 30px !important;
+    }
     div#list{
         border-radius: 15px;
         padding-bottom: 30px;

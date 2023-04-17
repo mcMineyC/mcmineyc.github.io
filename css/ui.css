@@ -65,6 +65,11 @@ div.mdc-top-app-bar--fixed-adjust{/*
         padding-right: var(--header-padding);
     }
 }
+@media (max-width: 410px){
+    .header {
+        padding-top: 30px !important;
+    }
+}
 @media (max-width:1010px){
     a.figure{
         margin-bottom: 5% !important;
