@@ -10,6 +10,7 @@
     <script src="/js/material-components-web.min.js"></script>
     <link rel="stylesheet" href="/css/icons.css">
     <link rel="stylesheet" href="/css/ui.css">
+    <link rel="stylesheet" href="/css/home.css">
     <title>Jedidiah McClimans' Portfolio</title>
 </head>
 <body>
@@ -19,17 +20,23 @@
     
     <aside class="mdc-drawer mdc-drawer--modal">
         <div class="mdc-drawer__content">
-            <nav class="mdc-list">
-            <a class="mdc-list-item mdc-list-item--activated" href="#" aria-current="page">
-              <span class="mdc-list-item__ripple"></span>
-              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">home</i>
-              <span class="mdc-list-item__text">Home</span>
-            </a>
-            <a class="mdc-list-item" href="/essays/mystory" aria-current="page">
-              <span class="mdc-list-item__ripple"></span>
-              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">description</i>
-              <span class="mdc-list-item__text">My Story</span>
-            </a>
+        </div>
+      </aside>
+      <div class="mdc-drawer-app-content">  
+        <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
+          <div class="mdc-top-app-bar__row">
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+              <span class="mdc-top-app-bar__title">Jedidiah McClimans' Portfolio</span>
+            </section>
+          </div>
+        </header> 
+
+        <!--Main body-->
+
+        <div class="mdc-top-app-bar--fixed-adjust">
+          <h1 class="header">Hello!</h1>
+          <center>
+          <nav class="mdc-list">
             <a class="mdc-list-item" href="/essays/topten">
               <span class="mdc-list-item__ripple"></span>
               <i class="material-icons mdc-list-item__graphic" aria-hidden="true">description</i>
@@ -40,30 +47,18 @@
               <i class="material-icons mdc-list-item__graphic" aria-hidden="true">description</i>
               <span class="mdc-list-item__text">How My Life Would Change If The Internet Ceased To Exist</span>
             </a>
+            <a class="mdc-list-item" href="/essays/mystory" aria-current="page">
+              <span class="mdc-list-item__ripple"></span>
+              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">description</i>
+              <span class="mdc-list-item__text">My Story</span>
+            </a><!--
             <a class="mdc-list-item" href="/projects">
               <span class="mdc-list-item__ripple"></span>
               <i class="material-icons mdc-list-item__graphic" aria-hidden="true">web</i>
               <span class="mdc-list-item__text">Projects I've Done</span>
-            </a>
+            </a>-->
           </nav>
-        </div>
-      </aside>
-      <div class="mdc-drawer-scrim"></div>
-      <div class="mdc-drawer-app-content">  
-        <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
-          <div class="mdc-top-app-bar__row">
-            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-              <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button">menu</button>
-              <span class="mdc-top-app-bar__title">Jedidiah McClimans' Portfolio</span>
-            </section>
-          </div>
-        </header> 
-
-        <!--Main body-->
-
-        <div class="mdc-top-app-bar--fixed-adjust">
-          <h1 class="header">Hello!</h1>
-          <h2 class="header">Click on the three lines in the top left to open the sidebar</h2>
+        </center>
         </div>
       </div>
       <script>
@@ -72,9 +67,6 @@
         r.style.setProperty('--mdc-theme-surface', c);
         const drawer = mdc.drawer.MDCDrawer.attachTo(document.querySelector('.mdc-drawer'));
         const topAppBar = mdc.topAppBar.MDCTopAppBar.attachTo(document.querySelector('.mdc-top-app-bar'));
-        topAppBar.listen('MDCTopAppBar:nav', () => {
-          drawer.open = !drawer.open;
-        });
     </script>
 
 </body>

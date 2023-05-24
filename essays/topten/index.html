@@ -26,11 +26,6 @@
               <i class="material-icons mdc-list-item__graphic" aria-hidden="true">home</i>
               <span class="mdc-list-item__text">Home</span>
             </a>
-            <a class="mdc-list-item" href="/essays/mystory" >
-              <span class="mdc-list-item__ripple"></span>
-              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">description</i>
-              <span class="mdc-list-item__text">My Story</span>
-            </a>
             <a class="mdc-list-item mdc-list-item--activated" href="#" aria-current="page">
               <span class="mdc-list-item__ripple"></span>
               <i class="material-icons mdc-list-item__graphic" aria-hidden="true">description</i>
@@ -41,11 +36,16 @@
               <i class="material-icons mdc-list-item__graphic" aria-hidden="true">description</i>
               <span class="mdc-list-item__text">How My Life Would Change If The Internet Ceased To Exist</span>
             </a>
+            <a class="mdc-list-item" href="/essays/mystory" >
+              <span class="mdc-list-item__ripple"></span>
+              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">description</i>
+              <span class="mdc-list-item__text">My Story</span>
+            </a><!--
             <a class="mdc-list-item" href="/projects">
               <span class="mdc-list-item__ripple"></span>
               <i class="material-icons mdc-list-item__graphic" aria-hidden="true">web</i>
               <span class="mdc-list-item__text">Projects I've Done</span>
-            </a>
+            </a>-->
           </nav>
         </div>
       </aside>
@@ -61,7 +61,6 @@
         </header> 
 
         <!--Main body-->
-
         <div class="mdc-top-app-bar--fixed-adjust">
           <h1 class="header">The Top 10 List of My Interests and Passions</h1>
           <div class="flex">
@@ -71,53 +70,60 @@
                       <li>
                         <span class="mdc-list-item__text head">Interest/Passion</span>
                       </li>
-                      <li class="mdc-list-item">
+                      <li class="mdc-list-item" onclick="a()">
                         <span class="mdc-list-item__ripple"></span>
-                        <span class="mdc-list-item__text">Coding</span>
+                        <span class="mdc-list-item__text" id="1">Coding</span>
                       </li>
-                      <li class="mdc-list-item">
+                      <li class="mdc-list-item" onclick="b()">
                         <span class="mdc-list-item__ripple"></span>
-                        <span class="mdc-list-item__text">Making 3D Animations</span>
+                        <span class="mdc-list-item__text" id="2">Making 3D Animations</span>
                       </li>
-                      <li class="mdc-list-item">
+                      <li class="mdc-list-item" onclick="numc()">
                         <span class="mdc-list-item__ripple"></span>
-                        <span class="mdc-list-item__text">Playing video games</span>
+                        <span class="mdc-list-item__text" id="3">Playing video games</span>
                       </li>
-                      <li class="mdc-list-item">
+                      <li class="mdc-list-item" onclick="d()">
                         <span class="mdc-list-item__ripple"></span>
-                        <span class="mdc-list-item__text">Reading</span>
+                        <span class="mdc-list-item__text" id="4">Reading</span>
                       </li>
-                      <li class="mdc-list-item">
+                      <li class="mdc-list-item" onclick="e()">
                         <span class="mdc-list-item__ripple"></span>
-                        <span class="mdc-list-item__text">Art</span>
+                        <span class="mdc-list-item__text" id="5">Art</span>
                       </li>
-                      <li class="mdc-list-item">
+                      <li class="mdc-list-item" onclick="f()">
                         <span class="mdc-list-item__ripple"></span>
-                        <span class="mdc-list-item__text">Building</span>
+                        <span class="mdc-list-item__text" id="6">Building</span>
                       </li>
-                      <li class="mdc-list-item">
+                      <li class="mdc-list-item" onclick="g()">
                         <span class="mdc-list-item__ripple"></span>
-                        <span class="mdc-list-item__text">Math</span>
+                        <span class="mdc-list-item__text" id="7">Science</span>
                       </li>
-                      <li class="mdc-list-item">
+                      <li class="mdc-list-item" onclick="h()">
                         <span class="mdc-list-item__ripple"></span>
-                        <span class="mdc-list-item__text"></span>
+                        <span class="mdc-list-item__text" id="8">Math</span>
                       </li>
-                      <li class="mdc-list-item">
+                      <li class="mdc-list-item" onclick="hi()">
                         <span class="mdc-list-item__ripple"></span>
-                        <span class="mdc-list-item__text"></span>
-                      </li>
-                      <li class="mdc-list-item">
+                        <span class="mdc-list-item__text" id="9"></span>
+                      </li> 
+                      <li class="mdc-list-item" onclick="j()">
                         <span class="mdc-list-item__ripple"></span>
-                        <span class="mdc-list-item__text"></span>
+                        <span class="mdc-list-item__text" id="10"></span>
                       </li>
                     </ul>
               </div>
               <div id="text">
-                  <h1>Placeholder</h1>
-              </div>
+              <h1 id="headertext"></h1>
+              <p id="textarea">Click on each item for more info</p>
+            </div>
+            </div>
+            <div class="img" id="img">
+            </div>
           </div>
+        </div>
       </div>
+      <br>
+      <script src="/js/topten.js"></script>
       <script>
         var r = document.querySelector(':root');
         var c = window.getComputedStyle( document.body ,null).getPropertyValue('background-color');
